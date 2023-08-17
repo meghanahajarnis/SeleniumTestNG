@@ -104,6 +104,7 @@ WebDriver driver;
 	@AfterTest
 	public void tearDown() {
 		driver.quit();
+		
 	}
 
 }
